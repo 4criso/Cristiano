@@ -7,10 +7,7 @@
   "email": "4criso@gmail.com",
   "skills": {
     "hardSkills": [
-      {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/js.svg"
-      },
+
       {
         "name": "Power BI",
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/pbi.svg"
@@ -24,11 +21,15 @@
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/excel.svg"
       },
       {
-        "name": "Mongodb",
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/js.svg"
+      },
+      {
+        "name": "CSS",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "Postgresql",
+        "name": "HTML",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
