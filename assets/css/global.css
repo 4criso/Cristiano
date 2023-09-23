@@ -9,7 +9,8 @@
 }
 
 body {
-    background-color: #000;
+    background: rgb(0,212,255);
+    background: linear-gradient(145deg, rgba(0,212,255,1) 0%, rgba(1,195,254,1) 10%, rgba(2,178,252,1) 20%, rgba(8,60,240,1) 30%, rgba(2,0,36,1) 50%, rgba(8,60,240,1) 70%, rgba(2,178,252,1) 80%, rgba(1,195,254,1) 90%, rgba(0,212,255,1) 100%);
     color: #fff;
 }
 
