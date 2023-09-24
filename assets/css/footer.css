@@ -8,6 +8,9 @@ footer {
 }
 
 footer img {
+    content: '';
+    display: inline-block;
+    position: absolute;
     max-width: 100px;
     top: 1rem;
     right: 1rem;
