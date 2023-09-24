@@ -49,8 +49,7 @@
   ],
   "portfolio": [
     {
-      "curso": "Análise e Desenvolvimento de Sistemas",
-      "inst": "ESTÁCIO. (Junho de 2002) – Concluído",
+      "name": "Análise e Desenvolvimento de Sistemas <br>ESTÁCIO. (Dez de 2016) – Concluído",
       "url": "https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas",
       "github": true
     },
