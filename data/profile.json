@@ -49,13 +49,13 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Análise e Desenvolvimento de Sistemas",
+      "url": "https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas",
       "github": true
     }
   ],
