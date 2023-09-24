@@ -31,7 +31,7 @@
     width: 1rem;
     height: 1rem;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
     background-image: url('../img/icons/github.svg');
     margin-right: .5rem;
 }
