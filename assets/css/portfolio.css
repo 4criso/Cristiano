@@ -28,8 +28,8 @@
 .portfolio li h3.github::before {
     content: "";
     display: inline-block;
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url('../img/icons/github.svg');
