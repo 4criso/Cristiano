@@ -9,7 +9,8 @@ footer {
 
 footer img {
     flex-direction: row-reverse;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 100px;
 
 }
