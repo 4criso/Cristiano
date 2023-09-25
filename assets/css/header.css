@@ -66,6 +66,10 @@
     background-image: url('../img/icons/email.svg');
 }
 
+.information .linkedin::before {
+    background-image: url('../img/icons/linkedin.svg');
+}
+
 .information .phone::before {
     background-image: url('../img/icons/phone.svg');
 }

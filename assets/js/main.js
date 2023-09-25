@@ -13,6 +13,9 @@ function updateProfileInfo(profileData) {
     const location = document.getElementById('profile.location')
     location.innerText = profileData.location
 
+    const linkedin = document.getElementById('profile.linkedin')
+    linkedin.innerText = profileData.linkedin
+
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
     phone.href = `tel:${profileData.phone}`
