@@ -10,7 +10,7 @@
     "hardSkills": [
 
       {
-        "name": "Power BI",
+        "name": "Power BI Analyst",
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/pbi.svg"
       },
       {
@@ -18,11 +18,11 @@
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/python.svg"
       },
       {
-        "name": "SQL",
+        "name": "SQL Database Specialist",
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/sql.svg"
       },
       {
-        "name": "Excel",
+        "name": "Excel (VBA)",
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/excel.svg"
       },      
       {
