@@ -1,7 +1,7 @@
 {
   "name": "Cristiano Lima",
   "photo": "https://avatars.githubusercontent.com/u/127700348?v=4",
-  "job": "Analista de Dados",
+  "job": "Analista Contábil",
   "location": "São Paulo - SP",
   "phone": "+55 11 94726 5627",
   "email": "crisvazvera@hotmail.com",
@@ -54,8 +54,8 @@
   ],
   "portfolio": [
     {
-      "name": "Ciências de Dados",
-      "url": "https://www.pucminas.br/PucVirtual/Pos-Graduacao/Paginas/Ci%C3%AAncia-de-Dados-e-Big-Data.aspx",
+      "name": "Ciências Contábeis",
+      "url": "https://drive.google.com/file/d/1fcp_ZMAZliTRzQskjYbwy2nMLvcJ-f1v/view?usp=sharing",
       "github": true
     },
     {
@@ -67,18 +67,28 @@
   "professionalExperience": [
     {
       "name": "Assistente Contábil Pleno / Dräger Indústria e Comércio Ltda.",
-      "period": "Mar/2020 - até o momento",
-      "description": "✔ &nbsp Classificações de despesas e reconciliações de contas identificando divergências assegurando a precisão contábil. <br>✔ &nbsp Análises, automações e execução de controles e relatórios em EXCEL / PBI / SQL."
+      "period": "desde março/2020 - até o momento",
+      "description": "(empresa de grande porte no segmento tecnologia médica e segurança)"
     },
     {
-      "name": "Assistente de Auditoria / PWC Brasil",
-      "period": "Ago/18 - Fev/2020",
-      "description": "✔ &nbsp Desenvolvimento de planos de testes a fim de identificar erros (bugs) a partir das provas realizadas, reportando e fazendo os acompanhamentos necessários. <br>✔ &nbsp Registro de todos os incidentes e não conformidades encontrados nos testes funcionais / automatizados elaborando relatórios. <br>✔ &nbsp Manutenção de testes já automatizados utilizando EXCEL / VBA."
+      "name": "Assistente Administrativo / SESI",
+      "period": "desde setembro/2016 a janeiro/2020",
+      "description": "(empresa de grande porte no segmento Ensino e Pesquisa)"
     },
     {
-      "name": "Sevice Desk (N1) / CSU Digital",
-      "period": "Jan/16 - Jun/18",
-      "description": "✔ &nbsp Atendimento priorizando as solicitações da central, respondendo clientes ou colaboradores em chats, e-mails e telefonemas para resolução de problemas N1. <br>✔ &nbsp Despacho dos chamados na fila para as equipes de suporte superior N2 & N3 Campo / Rede / Servidor / Telecon."
+      "name": "Sevice Desk (N1) / NEXTEL",
+      "period": "desde junho/2014 a maio/2016",
+      "description": "(empresa de grande porte no segmento telecomunicação)"
+    },
+    {
+      "name": "Assistente CO / NET SÃO PAULO S/A",
+      "period": "desde janeiro/2013 a maio/2014",
+      "description": "(empresa de grande porte no segmento telecomunicação)"
+    },
+    {
+      "name": "Assistente / EDITORA GLOBO S/A",
+      "period": "desde setembro/2008 a dezembro/2012",
+      "description": "(empresa de grande porte no segmento entretenimento – cultura e lazer)"
     }
   ]
 }
