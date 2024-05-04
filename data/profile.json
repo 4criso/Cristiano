@@ -54,6 +54,11 @@
   ],
   "portfolio": [
     {
+      "name": "Ciências Contábeis",
+      "url": "https://drive.google.com/file/d/1fcp_ZMAZliTRzQskjYbwy2nMLvcJ-f1v/view?usp=drive_link",
+      "github": true
+    },
+    {
       "name": "Análise e Desenvol. de Sistemas",
       "url": "https://mecconsulta.digital/consulta.php?cpfprotoc=148.544.248-69PTRC11110MEC",
       "github": true
@@ -61,13 +66,8 @@
   ],
   "professionalExperience": [
     {
-      "name": "Assistente de Service Desk / VIVO",
-      "period": "desde maio/2023 até o momento",
-      "description": "(empresa de grande porte no segmento telecomunicação)"
-    },
-    {
       "name": "Assistente Contábil Pleno / Dräger Indústria e Comércio Ltda.",
-      "period": "desde março/2020 a abril/2023",
+      "period": "desde março/2020 a fevereiro/2024",
       "description": "(empresa de grande porte no segmento tecnologia médica e segurança)"
     },
     {
@@ -76,9 +76,14 @@
       "description": "(empresa de grande porte no segmento auditoria e asseguração)"
     },
     {
-      "name": "Sevice Desk (N1) / CSU Digital",
-      "period": "desde janeiro/2016 a junho/2018",
-      "description": "(empresa de grande porte no segmento telecomunicação)"
+      "name": "Assistente / Damásio Educacional S/A",
+      "period": "desde maio/2013 a junho/2018",
+      "description": "(empresa de grande porte no segmento educacional)"
+    },
+    {
+      "name": "Assistente / SENAC",
+      "period": "desde maio/2008 a agosto/2012",
+      "description": "(empresa de grande porte no segmento educacional)"
     }
   ]
 }
