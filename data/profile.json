@@ -1,7 +1,7 @@
 {
   "name": "Cristiano Lima",
   "photo": "https://avatars.githubusercontent.com/u/127700348?v=4",
-  "job": "Analista Suporte (IT)",
+  "job": "Analista Contábil",
   "location": "São Paulo - SP",
   "phone": "+55 11 94726 5627",
   "email": "crisvazvera@hotmail.com",
@@ -54,10 +54,16 @@
   ],
   "portfolio": [
     {
+      "name": "Ciências Contábeis",
+      "url": "https://mecconsulta.digital/consulta.php?cpfprotoc=148.544.248-69PTRC11110MEC",
+      "github": true
+    },
+    {
       "name": "Análise e Desenvol. de Sistemas",
       "url": "https://mecconsulta.digital/consulta.php?cpfprotoc=148.544.248-69PTRC11110MEC",
       "github": true
     }
+
   ],
   "professionalExperience": [
     {
