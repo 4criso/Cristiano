@@ -61,24 +61,24 @@
   ],
   "professionalExperience": [
     {
-      "name": "Analista de suporte técnico / Telefonica",
+      "name": "Analista Contábil / Stefanini Group",
+      "period": "desde junho/2024 - o momento",
+      "description": "(empresa de grande porte no segmento de tecnologia da informação)"
+    },
+    {
+      "name": "Assistente Contábil / Dräger Indústria e Comércio Ltda.",
       "period": "desde março/2018 a fevereiro/2024",
-      "description": "(empresa de grande porte no segmento entretenimento e telecomunicações)"
+      "description": "(empresa de grande porte no segmento tecnologia médica e segurança)"
     },
     {
-      "name": "Assistente Service Desk (N1) / CSU Digital",
+      "name": "Analista / PWC Brasil",
       "period": "desde agosto/2015 a fevereiro/2018",
-      "description": "(empresa de grande porte no segmento telemarketing)"
+      "description": "(empresa de grande porte no segmento auditoria e asseguração)"
     },
     {
-      "name": "Assistente / NEXTEL",
-      "period": "desde junho/2013 a maio/2015",
-      "description": "(empresa de grande porte no segmento telecomunicações"
-    },
-    {
-      "name": "Assistente / NET SÃO PAULO S/A",
-      "period": "desde janeiro/2008 a abril/2013",
-      "description": "(empresa de grande porte no segmento entretenimento e telecomunicações)"
+      "name": "Assistente / Damásio Educacional S/A",
+      "period": "desde janeiro/2008 a abril/2015",
+      "description": "(empresa de grande porte no segmento educação jurídica)"
     }
   ]
 }
