@@ -44,9 +44,7 @@ function updateResumo(profileData) {
     const resumo = document.getElementById('profile.resumo')
     resumo.innerHTML = profileData.resumo.map(sobre =>  {
         return `
-            <li>
                 <p>${sobre.description}</p>
-            </li>
         `
     }).join('')
 }
