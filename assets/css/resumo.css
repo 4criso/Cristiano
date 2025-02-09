@@ -5,13 +5,3 @@
     padding: 0;
     list-style: none;
 }
-
-.resumo li {
-    margin-bottom: 1rem;
-}
-
-.resumo li .period {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
