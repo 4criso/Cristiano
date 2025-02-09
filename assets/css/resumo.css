@@ -1,4 +1,4 @@
-.languages {
+.resumo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,7 +8,7 @@
     list-style: none;
 }
 
-.languages li {
+.resumo li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,7 +16,7 @@
     font-weight: 700;
 }
 
-.languages li::before {
+.resumo li::before {
     content: "";
     display: inline-block;
     width: 1rem;
