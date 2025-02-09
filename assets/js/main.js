@@ -42,10 +42,10 @@ function updateLanguages(profileData) {
 
 function updateResumo(profileData) {
     const resumo = document.getElementById('profile.resumo')
-    resumo.innerHTML = profileData.resumo.map(resumo =>  {
+    resumo.innerHTML = profileData.resumo.map(sobre =>  {
         return `
             <li>
-                <p>${resumo.description}</p>
+                <p>${sobre.description}</p>
             </li>
         `
     }).join('')
