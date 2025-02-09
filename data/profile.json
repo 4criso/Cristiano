@@ -48,11 +48,13 @@
     ]
   },
   "resumo": [
-  { "description": "Sou um Analista Contábil com expertise em Power BI e Excel, apaixonado por otimizar processos e encontrar soluções de dados inovadoras. Tenho experiência em diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner. Busco sempre aprimorar minhas habilidades e conhecimentos para gerar valor para as empresas e clientes."},
+  { "description": "Sou Analista Contábil com expertise em Power BI e Excel, apaixonado por otimizar processos e desenvolver soluções inovadoras baseadas em dados. Tenho experiência com diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner. Busco constantemente aprimorar minhas habilidades e conhecimentos para agregar valor às empresas e clientes."},
   
-  { "description": "Ao longo dos últimos 10 anos, adquiri experiência em processamento e conciliação contábil, abrangendo lançamentos, classificação de transações, conciliação de contas, verificação de conformidade e correção de não conformidades para assegurar a precisão garantindo o correto registro contábil. Contribuí para a regularidade e controle interno, acompanhando informações fiscais e prestando suporte em auditorias internas e externas."},
+  { "description": "Ao longo dos últimos 10 anos, atuei no processamento e conciliação contábil, realizando lançamentos, classificações de transações, conciliações de contas, verificações de conformidade e correções de não conformidades, assegurando a precisão e o correto registro contábil. Além disso, contribuí para a regularidade e o fortalecimento do controle interno, acompanhando informações fiscais e prestando suporte em auditorias internas e externas."},
 
-  { "description": "Adicionalmente, trabalhei em rotinas de fechamento contábil, incluindo ajustes, análises e automações em Excel, Power BI e SQL. Além disso, executei testes de auditoria, validei dados, analisei processos e sugeri melhorias contínuas para otimização dos controles financeiros e contábeis."}
+  { "description": "Também possuo experiência em rotinas de fechamento contábil, incluindo ajustes, análises e automações utilizando Excel, Power BI e SQL. Atuei na execução de testes de auditoria, validação de dados, análise de processos e implementação de melhorias contínuas para otimização dos controles financeiros e contábeis."},
+
+  { "description": "Além da experiência na área contábil, também atuei no atendimento e suporte a alunos presencialmente, por telefone e e-mail, bem como na execução de processos administrativos, incluindo matrículas, pagamentos, transferências e gestão de turmas. Fui responsável pela organização de arquivos e documentos, além do fornecimento de recursos didáticos para salas de aula."}
   ],
   "languages": [
     "Português BR",
