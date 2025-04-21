@@ -1,0 +1,98 @@
+{
+  "name": "Cristiano Lima",
+  "photo": "https://avatars.githubusercontent.com/u/127700348?v=4",
+  "job": "Analista",
+  "location": "São Paulo - SP",
+  "phone": "11 9 6244 2288",
+  "email": "crisvazvera@hotmail.com",
+  "linkedin": "Linkedin",
+  "skills": {
+    "hardSkills": [
+
+      {
+        "name": "Power BI Analyst",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/pbi.svg"
+      },
+      {
+        "name": "Python Developer",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/python.svg"
+      },
+      {
+        "name": "SQL Database Specialist",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/sql.svg"
+      },
+      {
+        "name": "Excel (VBA)",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/excel.svg"
+      },      
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/js.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/css.svg"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/html.svg"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comprometimento",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização",
+      "Busca constante por conhecimento"
+    ]
+  },
+  "resumo": [
+  { "description": "Sou Analista Contábil com expertise em Power BI e Excel, apaixonado por otimizar processos e desenvolver soluções inovadoras baseadas em dados. Tenho experiência com diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner. Busco constantemente aprimorar minhas habilidades e conhecimentos para agregar valor às empresas e clientes."},
+  
+  { "description": "Ao longo dos últimos 10 anos, atuei no processamento e conciliação contábil, realizando lançamentos, classificações de transações, conciliações de contas, verificações de conformidade e correções de não conformidades, assegurando a precisão e o correto registro contábil. Além disso, contribuí para a regularidade e o fortalecimento do controle interno, acompanhando informações fiscais e prestando suporte em auditorias internas e externas."},
+
+  { "description": "Também possuo experiência em rotinas de fechamento contábil, incluindo ajustes, análises e automações utilizando Excel, Power BI e SQL. Atuei na execução de testes de auditoria, validação de dados, análise de processos e implementação de melhorias contínuas para otimização dos controles financeiros e contábeis."},
+
+  { "description": "Além da experiência na área contábil, também atuei no atendimento e suporte a alunos presencialmente, por telefone e e-mail, bem como na execução de processos administrativos, incluindo matrículas, pagamentos, transferências e gestão de turmas. Fui responsável pela organização de arquivos e documentos, além do fornecimento de recursos didáticos para salas de aula."}
+  ],
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Ciências Contábeis",
+      "url": "https://drive.google.com/file/d/1GRx6_hd6CtPCdFyjBHdsafg8QzgK42cU/view?usp=sharing",
+      "github": true
+    },
+    {
+      "name": "Análise e Desenvol. de Sistemas",
+      "url": "https://drive.google.com/file/d/1sYr43fYf_PxUpM5R3sqX6l2I8U3HcLYA/view?usp=sharing",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Analista Contábil / DTA Engenharia",
+      "period": "desde outubro de 2023 - o momento",
+      "description": "(empresa de grande porte no segmento Engenharia Portuária e Ambiental)"
+    },
+    {
+      "name": "Assistente Contábil / Dräger Indústria e Comércio Ltda.",
+      "period": "de março de 2020 até outubro de 2023",
+      "description": "(empresa de grande porte no segmento Tecnologia Médica e Segurança)"
+    },
+    {
+      "name": "Assistente de auditoria / PWC Brasil",
+      "period": "de agosto de 2015 até fevereiro de 2020",
+      "description": "(empresa de grande porte no segmento Auditoria e Asseguração)"
+    },
+    {
+      "name": "Assistente / Damásio Educacional S/A",
+      "period": "de janeiro de 2008 até abril de 2015",
+      "description": "(empresa de grande porte no segmento Educação Jurídica)"
+    }
+  ]
+}
