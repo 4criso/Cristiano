@@ -48,13 +48,13 @@
     ]
   },
   "resumo": [
-  { "description": "Sou Analista Contábil com expertise em Power BI e Excel, apaixonado por otimizar processos e desenvolver soluções inovadoras baseadas em dados. Tenho experiência com diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner. Busco constantemente aprimorar minhas habilidades e conhecimentos para agregar valor às empresas e clientes."},
+  { "description": "Sou Analista Contábil com sólida experiência na área fiscal e contábil, atuando na apuração de impostos diretos e indiretos (ICMS, ISS, PIS, COFINS, IRPJ e CSLL), conferência de alíquotas e regimes tributários, emissão e análise de notas fiscais e acompanhamento de retenções na fonte."},
   
-  { "description": "Ao longo dos últimos 10 anos, atuei no processamento e conciliação contábil, realizando lançamentos, classificações de transações, conciliações de contas, verificações de conformidade e correções de não conformidades, assegurando a precisão e o correto registro contábil. Além disso, contribuí para a regularidade e o fortalecimento do controle interno, acompanhando informações fiscais e prestando suporte em auditorias internas e externas."},
+  { "description": "Participo da elaboração e entrega de obrigações acessórias, como SPED Fiscal, SPED Contribuições, EFD-Reinf, DCTF e DIRF, garantindo prazos e conformidade legal. Mantenho-me atualizado sobre a legislação tributária e apoio ajustes em processos internos para otimizar a gestão fiscal e reduzir riscos."},
 
-  { "description": "Também possuo experiência em rotinas de fechamento contábil, incluindo ajustes, análises e automações utilizando Excel, Power BI e SQL. Atuei na execução de testes de auditoria, validação de dados, análise de processos e implementação de melhorias contínuas para otimização dos controles financeiros e contábeis."},
+  { "description": "Ao longo de mais de 10 anos de carreira, atuei no processamento e conciliação contábil, lançamentos, classificações de transações, verificações e correções de não conformidades, fortalecendo controles internos e assegurando a integridade das informações financeiras. Tenho vivência em rotinas de fechamento contábil, ajustes e análises, além de desenvolver automações e relatórios utilizando Excel, Power BI, Python e SQL para otimização de processos e suporte à tomada de decisão."},
 
-  { "description": "Além da experiência na área contábil, também atuei no atendimento e suporte a alunos presencialmente, por telefone e e-mail, bem como na execução de processos administrativos, incluindo matrículas, pagamentos, transferências e gestão de turmas. Fui responsável pela organização de arquivos e documentos, além do fornecimento de recursos didáticos para salas de aula."}
+  { "description": "Experiência com diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner, com foco em eficiência operacional e melhoria contínua."}
   ],
   "languages": [
     "Português BR",
@@ -75,24 +75,18 @@
   ],
   "professionalExperience": [
     {
-      "name": "Analista Contábil / DTA Engenharia",
-      "period": "desde outubro de 2023 - o momento",
-      "description": "(empresa de grande porte no segmento Engenharia Portuária e Ambiental)"
+      "name": "Analista Contábil / Infios",
+      "period": "desde maio de 2025 - o momento",
+      "description": "(empresa de grande porte no segmento tecnologia e otimização (Supply Chain Technology).)"
     },
     {
       "name": "Assistente Contábil / Dräger Indústria e Comércio Ltda.",
-      "period": "de março de 2020 até outubro de 2023",
+      "period": "de março de 2020 até novembro de 2024",
       "description": "(empresa de grande porte no segmento Tecnologia Médica e Segurança)"
     },
     {
       "name": "Assistente de auditoria / PWC Brasil",
       "period": "de agosto de 2015 até fevereiro de 2020",
-      "description": "(empresa de grande porte no segmento Auditoria e Asseguração)"
-    },
-    {
-      "name": "Assistente / Damásio Educacional S/A",
-      "period": "de janeiro de 2008 até abril de 2015",
-      "description": "(empresa de grande porte no segmento Educação Jurídica)"
-    }
+      "description": "(empresa de grande porte no segmento Auditoria e Asseguração)"}
   ]
 }
