@@ -1,12 +1,24 @@
 {
   "name": "Cristiano Lima",
   "photo": "https://avatars.githubusercontent.com/u/127700348?v=4",
-  "job": "Analista Contábil",
+  "job": "Assistente Contábil em Transição para Analista Contábil",
   "location": "São Paulo - SP",
   "phone": "11 9 6244 2288",
   "email": "crisvazvera@hotmail.com",
   "linkedin": "Linkedin",
   "skills": {
+    "fiscalSkills": [
+      "SPED Fiscal",
+      "SPED Contribuições",
+      "EFD-Reinf",
+      "DCTF",
+      "DIRF",
+      "ICMS / DIFAL",
+      "ISS",
+      "PIS / COFINS",
+      "IRPJ / CSLL",
+      "Reforma Tributária (IBS/CBS)"
+    ],
     "hardSkills": [
 
       {
@@ -37,24 +49,16 @@
         "name": "HTML",
         "logo": "https://raw.githubusercontent.com/4criso/Cristiano/main/assets/img/icons/tools/html.svg"
       }
-    ],
-    "softSkills": [
-      "Empatia",
-      "Comprometimento",
-      "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização",
-      "Busca constante por conhecimento"
     ]
   },
   "resumo": [
-  { "description": "Sou Analista Contábil com sólida experiência na área fiscal e contábil, atuando na apuração de impostos diretos e indiretos (ICMS, ISS, PIS, COFINS, IRPJ e CSLL), conferência de alíquotas e regimes tributários, emissão e análise de notas fiscais e acompanhamento de retenções na fonte."},
-  
-  { "description": "Participo da elaboração e entrega de obrigações acessórias, como SPED Fiscal, SPED Contribuições, EFD-Reinf, DCTF e DIRF, garantindo prazos e conformidade legal. Mantenho-me atualizado sobre a legislação tributária e apoio ajustes em processos internos para otimizar a gestão fiscal e reduzir riscos."},
+  { "description": "Assistente Contábil com sólida experiência em rotinas fiscais e contábeis, atuando diretamente na apuração de impostos diretos e indiretos (ICMS, ISS, PIS, COFINS, IRPJ, CSLL) e na elaboração de obrigações acessórias como SPED Fiscal, SPED Contribuições, EFD-Reinf, DCTF e DIRF."},
 
-  { "description": "Ao longo de mais de 10 anos de carreira, atuei no processamento e conciliação contábil, lançamentos, classificações de transações, verificações e correções de não conformidades, fortalecendo controles internos e assegurando a integridade das informações financeiras. Tenho vivência em rotinas de fechamento contábil, ajustes e análises, além de desenvolver automações e relatórios utilizando Excel, Power BI, Python e SQL para otimização de processos e suporte à tomada de decisão."},
+  { "description": "Minha trajetória passa por auditoria (PwC), contabilidade industrial (Dräger) e atualmente suporte fiscal em ambiente SaaS multinacional (Infios, grupo Körber). Tenho forte atuação em conciliações contábeis, lançamentos, classificações e correção de inconsistências — sempre com foco em prazos e conformidade com a legislação vigente."},
 
-  { "description": "Experiência com diversos sistemas contábeis, como SAP Business One, Oracle, Navision, Domínio e Benner, com foco em eficiência operacional e melhoria contínua."}
+  { "description": "Como diferencial, aplico Excel Avançado (VBA), Power BI, SQL e Python para automatizar rotinas fiscais e gerar relatórios mais rápidos e confiáveis. Tenho experiência prática com ERPs como SAP Business One, Oracle, Navision, Domínio e Benner."},
+
+  { "description": "Atualmente em transição para Analista Contábil e em pós-graduação em Reforma Tributária (Prática Fiscal), acompanho de perto as mudanças do IBS, CBS e Imposto Seletivo, estudando os impactos da transição do modelo atual sobre processos fiscais e contábeis."}
   ],
   "languages": [
     "Português BR",
@@ -63,8 +67,8 @@
   ],
   "portfolio": [
     {
-      "name": "Ciências Contábeis",
-      "url": "Universidade UNIP (cursando) - dez/25",
+      "name": "Pós-graduação Reforma Tributária - Prática Fiscal",
+      "url": "Faculdade Brasileira de Contabilidade - dez/2026",
       "github": true
     },
     {
@@ -75,18 +79,37 @@
   ],
   "professionalExperience": [
     {
-      "name": "Analista Contábil / Infios",
+      "name": "Assistente Contábil / Infios",
       "period": "desde maio de 2025 - o momento",
-      "description": "(empresa de grande porte no segmento tecnologia e otimização (Supply Chain Technology).)"
+      "segment": "Tecnologia e otimização de Supply Chain (SaaS, grupo Körber)",
+      "achievements": [
+        "Único ponto de suporte fiscal interno da operação brasileira (empresa sem departamento fiscal próprio), atuando na apuração de 6 tributos diretos e indiretos (ICMS, ISS, PIS, COFINS, IRPJ, CSLL), incluindo cálculo de DIFAL para operações interestaduais.",
+        "Processamento de faturamento e lançamentos de documentos de entrada (NF-e, NFS-e, DANFE, CT-e, faturas, boletos) via NetSuite, assegurando conformidade fiscal em toda a operação.",
+        "Responsável pela preparação e revisão de 4 obrigações acessórias recorrentes (SPED Fiscal, EFD-Reinf, DCTF, DIRF), em interface direta com a assessoria tributária terceirizada.",
+        "Controle do calendário fiscal e conciliação bancária/faturamento, com extração de relatórios via Simpliss Web (Prefeitura de Blumenau)."
+      ]
     },
     {
       "name": "Assistente Contábil / Dräger Indústria e Comércio Ltda.",
       "period": "de março de 2020 até novembro de 2024",
-      "description": "(empresa de grande porte no segmento Tecnologia Médica e Segurança)"
+      "segment": "Tecnologia Médica e Segurança",
+      "achievements": [
+        "Identificação e correção proativa de divergências em contas patrimoniais, reduzindo em 15% o tempo médio de conciliação.",
+        "Classificação de despesas e receitas no Oracle, processando mais de 200 lançamentos/mês conforme plano de contas.",
+        "Monitoramento de despesas intercompany e rateio de custos com empresas afiliadas, assegurando a integridade dos registros financeiros.",
+        "Gestão de passivos: controle e regularização de notas fiscais pendentes, otimizando o fechamento contábil mensal.",
+        "Alinhamento entre Facilities, Financeiro e RH para registro de multas e seguros, reduzindo retrabalho no fluxo de informações."
+      ]
     },
     {
-      "name": "Assistente de auditoria / PWC Brasil",
+      "name": "Assistente de Auditoria / PwC Brasil",
       "period": "de agosto de 2015 até fevereiro de 2020",
-      "description": "(empresa de grande porte no segmento Auditoria e Asseguração)"}
+      "segment": "Auditoria e Asseguração",
+      "achievements": [
+        "Validação de lançamentos contábeis em auditorias externas para clientes de múltiplos setores, com detecção proativa de inconsistências e duplicidades.",
+        "Execução de testes de controle e substantivos com foco no princípio da partida dobrada e aderência às normas contábeis vigentes.",
+        "Revisão de contratos e relatórios financeiros, assegurando integridade auditada, conciliando a rotina de auditoria com jornada de meio período durante a formação acadêmica."
+      ]
+    }
   ]
 }

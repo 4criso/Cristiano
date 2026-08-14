@@ -18,16 +18,19 @@ function updateProfileInfo(profileData) {
 
     const phone = document.getElementById('profile.phone')
     phone.innerText = profileData.phone
-    phone.href = `tel:${profileData.phone}`
+    const phoneDigits = profileData.phone.replace(/\D/g, '')
+    const whatsappNumber = phoneDigits.startsWith('55') ? phoneDigits : `55${phoneDigits}`
+    phone.href = `https://wa.me/${whatsappNumber}`
+    phone.target = '_blank'
 
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 }
 
-function updateSoftSkills(profileData) {
-    const softSkills = document.getElementById('profile.skills.softSkills')
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+function updateFiscalSkills(profileData) {
+    const fiscalSkills = document.getElementById('profile.skills.fiscalSkills')
+    fiscalSkills.innerHTML = profileData.skills.fiscalSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
 function updateHardSkills(profileData) {
@@ -68,7 +71,10 @@ function updateProfessionalExperience(profileData) {
             <li>
                 <h3 class="title">${experience.name}</h3>
                 <p class="period">${experience.period}</p>
-                <p>${experience.description}</p>
+                <p class="segment">${experience.segment}</p>
+                <ul class="achievements">
+                    ${experience.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                </ul>
             </li>
         `
     }).join('')
@@ -76,11 +82,22 @@ function updateProfessionalExperience(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData()
-    updateProfileInfo(profileData)
-    updateSoftSkills(profileData)
-    updateHardSkills(profileData)
-    updateLanguages(profileData)
-    updateResumo(profileData)
-    updatePortfolio(profileData)
-    updateProfessionalExperience(profileData)
+
+    const sections = [
+        updateProfileInfo,
+        updateFiscalSkills,
+        updateHardSkills,
+        updateLanguages,
+        updateResumo,
+        updatePortfolio,
+        updateProfessionalExperience
+    ]
+
+    sections.forEach((updateSection) => {
+        try {
+            updateSection(profileData)
+        } catch (error) {
+            console.error(`Falha ao renderizar seção (${updateSection.name}):`, error)
+        }
+    })
 })()

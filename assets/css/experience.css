@@ -26,3 +26,19 @@
     background-image: url('../img/icons/calendar.svg');
     margin-right: .5rem;
 }
+
+.experience li .segment {
+    font-style: italic;
+    opacity: .85;
+    margin: .25rem 0 .5rem;
+}
+
+.experience li .achievements {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.experience li .achievements li {
+    margin-bottom: .35rem;
+    line-height: 1.4;
+}
