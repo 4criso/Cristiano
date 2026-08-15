@@ -67,6 +67,11 @@
   ],
   "portfolio": [
     {
+      "name": "Ciências Contábeis",
+      "url": "Universidade UNIP (cursando) - dez/25",
+      "github": true
+    },
+    {
       "name": "Pós-graduação Reforma Tributária - Prática Fiscal",
       "url": "Faculdade Brasileira de Contabilidade - dez/2026",
       "github": true
