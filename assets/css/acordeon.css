@@ -54,13 +54,20 @@
 }
 
 .acordeon .content {
-    overflow: hidden;
-    max-height: 0;
+    display: grid;
+    grid-template-rows: 0fr;
+    padding: 0 2rem;
     opacity: 0;
-    transition: max-height .35s ease-in-out, opacity .25s ease-in-out, padding .35s ease-in-out;
+    transition: grid-template-rows .35s ease-in-out, opacity .25s ease-in-out, padding .35s ease-in-out;
+}
+
+.acordeon .content > * {
+    overflow: hidden;
+    min-height: 0;
 }
 
 .acordeon.open .content {
+    grid-template-rows: 1fr;
     padding: .75rem 2rem 1.5rem;
     opacity: 1;
     border-top: 1px solid rgba(255, 255, 255, .2);
