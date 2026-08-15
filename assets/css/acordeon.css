@@ -62,7 +62,6 @@
 
 .acordeon.open .content {
     padding: .75rem 2rem 1.5rem;
-    max-height: 2000px;
     opacity: 1;
     border-top: 1px solid rgba(255, 255, 255, .2);
 }
