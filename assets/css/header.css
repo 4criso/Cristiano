@@ -27,18 +27,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: .5rem;
+    margin: .4rem 0;
     font-size: 1.125rem;
+    gap: .65rem;
 }
 
 .information p::before {
     content: '';
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .12);
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: .5rem;
+    background-position: center;
+    background-size: 1.05rem;
 }
 
 .information .job::before {
@@ -58,7 +62,8 @@
 }
 
 .information .phone::before {
-    background-image: url('../img/icons/phone.svg');
+    background-image: url('../img/icons/whatsapp.svg');
+    background-size: 1.05rem;
 }
 
 @media only screen and (min-width: 768px) {

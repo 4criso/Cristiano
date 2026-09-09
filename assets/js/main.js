@@ -17,7 +17,7 @@ function updateProfileInfo(profileData) {
     linkedin.innerText = profileData.linkedin
 
     const phone = document.getElementById('profile.phone')
-    phone.innerText = profileData.phone
+    phone.innerText = `WhatsApp: ${profileData.phone}`
     const phoneDigits = profileData.phone.replace(/\D/g, '')
     const whatsappNumber = phoneDigits.startsWith('55') ? phoneDigits : `55${phoneDigits}`
     phone.href = `https://wa.me/${whatsappNumber}`
