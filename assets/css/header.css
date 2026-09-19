@@ -6,6 +6,7 @@
 }
 
 .lang-switch {
+    position: relative;
     align-self: flex-end;
     margin-bottom: 1.5rem;
 }

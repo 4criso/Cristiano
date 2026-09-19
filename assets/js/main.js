@@ -20,7 +20,7 @@ function updateStaticText(profileData, lang) {
     document.getElementById('i18n.title.education').innerText = t.education
     document.getElementById('i18n.title.experience').innerText = t.experience
     document.getElementById('i18n.laudo').innerText = t.laudo
-    document.getElementById('lang-current-label').innerText = lang === 'pt' ? 'Português' : 'English'
+    document.getElementById('lang-current-label').innerText = lang === 'pt' ? 'pt' : 'en'
     document.getElementById('lang-current-flag').src = `assets/img/icons/flags/${lang === 'pt' ? 'br' : 'us'}.svg`
     document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en-US'
 }
