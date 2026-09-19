@@ -1,0 +1,50 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience li {
+    margin-bottom: 1.4rem;
+}
+
+.experience li .company {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 .15rem;
+}
+
+.experience li .role {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    font-weight: 700;
+    margin: 0;
+}
+
+.experience li .role .period {
+    font-weight: 400;
+    font-size: .85rem;
+    opacity: .8;
+}
+
+.experience li .segment {
+    font-style: italic;
+    opacity: .75;
+    font-size: .9rem;
+    margin: .1rem 0 .6rem;
+}
+
+.experience li .achievements {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.experience li .achievements li {
+    margin-bottom: .35rem;
+    line-height: 1.4;
+}

@@ -1,0 +1,192 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.lang-switch {
+    align-self: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.lang-switch .lang-current img,
+.lang-switch .lang-menu img {
+    width: 1.15rem;
+    height: auto;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.lang-switch .lang-current {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .3);
+    color: #fff;
+    border-radius: 1rem;
+    padding: .35rem .8rem;
+    font-size: .85rem;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.lang-switch .lang-current:hover,
+.lang-switch.open .lang-current {
+    background-color: rgba(0, 212, 255, .28);
+    border-color: rgba(0, 212, 255, .6);
+}
+
+.lang-switch .lang-caret {
+    font-size: .7rem;
+    opacity: .7;
+    transition: transform .2s ease-in-out;
+}
+
+.lang-switch.open .lang-caret {
+    transform: rotate(180deg);
+}
+
+.lang-switch .lang-menu {
+    position: absolute;
+    top: calc(100% + .4rem);
+    right: 0;
+    min-width: 9rem;
+    margin: 0;
+    padding: .35rem;
+    list-style: none;
+    background-color: #1b1b33;
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: .75rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .35);
+    opacity: 0;
+    transform: translateY(-.4rem);
+    pointer-events: none;
+    transition: opacity .18s ease-in-out, transform .18s ease-in-out;
+}
+
+.lang-switch.open .lang-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.lang-switch .lang-menu button {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: .9rem;
+    text-align: left;
+    padding: .5rem .6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background-color .15s ease-in-out;
+}
+
+.lang-switch .lang-menu button:hover {
+    background-color: rgba(0, 212, 255, .28);
+}
+
+.lang-switch .lang-menu button.active {
+    background-color: rgba(255, 255, 255, .1);
+    font-weight: 700;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .4rem 0;
+    font-size: 1.125rem;
+    gap: .65rem;
+}
+
+.information p::before {
+    content: '';
+    flex-shrink: 0;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .12);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.05rem;
+}
+
+.information .job::before {
+    background-image: url('../img/icons/job.svg');
+}
+
+.information .location::before {
+    background-image: url('../img/icons/location.svg');
+}
+
+.information .email::before {
+    background-image: url('../img/icons/email.svg');
+}
+
+.information .linkedin::before {
+    background-image: url('../img/icons/linkedin.svg');
+}
+
+.information .phone::before {
+    background-image: url('../img/icons/whatsapp.svg');
+    background-size: 1.05rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+            "photo title"
+            "photo information"
+        ;
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 210px;
+    }
+
+    .header .information {
+        grid-area: information;
+    }
+
+    .lang-switch {
+        position: absolute;
+        top: .5rem;
+        right: .5rem;
+        align-self: auto;
+        margin-bottom: 0;
+    }
+}
